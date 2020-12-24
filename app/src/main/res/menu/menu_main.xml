@@ -3,8 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.raptor.passwordmanager.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/signin_settings"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="@string/signin_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/load_settings"
+        android:orderInCategory="100"
+        android:title="@string/load_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/save_settings"
+        android:orderInCategory="100"
+        android:title="@string/save_settings"
         app:showAsAction="never" />
 </menu>
